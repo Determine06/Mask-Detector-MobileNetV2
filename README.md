@@ -52,7 +52,7 @@ Why MobileNetV2?
 
 # Core Building Blocks
 
-1. Conv–BN–ReLU6 Block
+## Conv–BN–ReLU6 Block
 
 A lightweight building unit used throughout the network:
 
@@ -60,7 +60,7 @@ Conv2D → BatchNorm → ReLU6
 
 ReLU6 is used instead of standard ReLU for improved numerical stability, especially in low-precision and mobile-oriented settings.
 
-2. Inverted Residual (Bottleneck) Block
+## Inverted Residual (Bottleneck) Block
 
 Each MobileNetV2 bottleneck follows this structure:
 
