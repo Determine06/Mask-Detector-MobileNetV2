@@ -89,12 +89,12 @@ This design significantly reduces the number of parameters while improving gener
 
 # Training Details
 
-Framework: PyTorch
-Loss Function: CrossEntropyLoss (raw logits)
-Optimizer: AdamW
-Metrics: Accuracy, Precision, Recall, F1 Score
-Checkpointing: Best model saved based on validation F1
-Device: CPU-only training
+- Framework: PyTorch
+- Loss Function: CrossEntropyLoss (raw logits)
+- Optimizer: AdamW
+- Metrics: Accuracy, Precision, Recall, F1 Score
+- Checkpointing: Best model saved based on validation F1
+- Device: CPU-only training
 
 The model is trained from scratch and evaluated using validation and test splits.
 
