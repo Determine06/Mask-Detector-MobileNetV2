@@ -110,12 +110,13 @@ After training, the model can be used for inference by following these steps:
 # Citation
 
 If you reference or build upon this work, please cite the original MobileNetV2 paper:
+
 @article{sandler2018mobilenetv2,
   title={MobileNetV2: Inverted Residuals and Linear Bottlenecks},
   author={Sandler, Mark and Howard, Andrew and Zhu, Menglong and Zhmoginov, Andrey and Chen, Liang-Chieh},
   journal={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2018}
-}
+} 
 
 
 
