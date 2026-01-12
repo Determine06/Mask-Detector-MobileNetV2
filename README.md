@@ -14,16 +14,6 @@ The focus of this project is not just achieving high accuracy, but understanding
 
 The model is trained from scratch on CPU, making architectural efficiency and optimization central design considerations.
 
-# Key Results
-
-Best validation F1 score: ~0.97
-Strong balance between precision and recall
-
-No significant overfitting due to:
-- data augmentation
-- efficient architecture
-- proper checkpoint selection
-
 # Data Preprocessing & Augmentation
 
 Training transforms
